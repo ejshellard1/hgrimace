@@ -1,0 +1,140 @@
+* {
+    margin-right: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+
+
+
+h1 {
+	display: inline;
+	font: Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	color: rgba(255, 0, 0, 0.5); 
+    font-size: 111px; 
+    text-shadow: -2px -2px 0pt rgba(0, 0, 255, 0.5);
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    width: 88%;
+    margin: auto;
+    float: center;
+}
+
+
+
+
+h2 {
+    color: rgba(255, 0, 0, 0.5); 
+    font-size: 55px; 
+    text-shadow: -4px -3px 0pt rgba(0, 0, 255, 0.5);
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+.main-text {
+    text-align: center;
+    color: rgba(255, 0, 0, 0.5); 
+    font-size: 45px; 
+    text-shadow: -5px -3px 0pt rgba(0, 0, 255, 0.5);
+}
+
+.links {
+    padding: 0px;
+    width: 88%;
+    height: auto;
+    margin: auto;
+    float: center;
+}
+  
+
+
+
+
+
+
+.author-text {
+    float: none;
+    margin-bottom: 50px;
+    margin-top: 200px;
+    margin-right: 250px;
+    margin-left: 30px;
+}
+
+
+.other-posts {
+    width: 33.33%;
+    padding-right: 10px;
+    float: right;
+    margin-right: 33px;
+    margin-top: 0;
+    position: relative;
+    text-align: right;
+    
+}
+
+
+
+
+.video {
+    margin: auto;
+    float: center;
+    padding: 0;
+}
+
+
+
+
+.author-box {
+    background-color: clear;
+    width: 1140;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.author-box img {
+    height: 200px;
+    width: 500px;
+    border-radius: 50%;
+    float: left;
+    margin: 5 5 5 5;
+}
+
+.blog-post img {
+    height: 250px;
+    width: 1140px;
+    filter: invert(100%)
+}
+
+
+.sounds {
+    margin: auto;
+    float: center;
+    padding: 0;
+    
+}
