@@ -20,19 +20,25 @@ body {
 
 h1 {
 	display: inline;
-	font: Helvetica, Sans-Serif;
-	letter-spacing: -1px;
-	color: rgba(255, 0, 0, 0.5); 
+	font: Sans-Serif;
+    letter-spacing: 16px;
+	color: palevioletred;
     font-size: 111px; 
-    text-shadow: -2px -2px 0pt rgba(0, 0, 255, 0.5);
+    text-shadow: 9px -9px 0pt rgba(0, 0, 255, 0.5);
 }
 
 .title {
     text-align: center;
-    padding: 10px;
-    width: 88%;
+    padding: 0px;
+    width: 90%;
     margin: auto;
     float: center;
+    
+    border-style: double; 
+    border-width: 10px;
+    border-color: palevioletred;
+    
+    padding: 5px;
 }
 
 
@@ -41,35 +47,48 @@ h1 {
 h2 {
     color: rgba(255, 0, 0, 0.5); 
     font-size: 55px; 
-    text-shadow: -4px -3px 0pt rgba(0, 0, 255, 0.5);
+    text-shadow: 4px -3px 0pt rgba(0, 0, 255, 0.5);
 }
+
+
+
+.paragraph {
+    
+   padding: 0px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.main-text2 {
+    
+    font-family: serif;
+    font-size: 17px;
+    color: palevioletred;
+    text-align: justify;
+    
+    border-style: double; 
+    border-width: 10px;
+    border-color: palevioletred;
+    
+    padding: 11px;
+}
+
+
+
+
+
+
+
+
 
 p {
     font-size: 18px;
+    color: blueviolet;
     text-align: justify;
-}
-
-
-
-
-
-
-
-.main-text {
-    text-align: center;
-    color: rgba(255, 0, 0, 0.5); 
-    font-size: 45px; 
-    text-shadow: -5px -3px 0pt rgba(0, 0, 255, 0.5);
-}
-
-.links {
-    padding: 0px;
-    width: 88%;
-    height: auto;
-    margin: auto;
     float: center;
 }
-  
+
 
 
 
@@ -103,12 +122,14 @@ p {
     margin: auto;
     float: center;
     padding: 0;
+    width: 90%;
 }
 
 .video2 {
     margin: auto;
     float: center;
     padding: 0;
+    width: 90%;
 }
 
 
@@ -130,16 +151,68 @@ p {
     margin: 5 5 5 5;
 }
 
-.blog-post img {
-    height: 250px;
-    width: 1140px;
-    filter: invert(100%)
+
+
+
+
+.links {
+    padding: 0px;
+    width: 90%;
+    height: auto;
+    margin: auto;
 }
+  
+.main-text {
+    text-align: center;
+    color: palevioletred;
+    font-size: 44px; 
+    text-shadow: 5px -3px 0pt rgba(0, 0, 255, 0.5);
+   
+    letter-spacing: 3px;
+    
+    border-style: double; 
+    border-width: 10px;
+    border-color: palevioletred;
+    
+    padding: 0px;
+
+}
+
+a:link, a:visited {
+    background-color: black;
+    color: palevioletred;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: palevioletred;
+}
+
+
+
+
+
+
+
+
+.image {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    float: center;
+}
+
+
+
+
+
 
 
 .sounds {
     margin: auto;
     float: center;
     padding: 0;
-    
+    width: 90%;
 }
