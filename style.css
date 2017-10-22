@@ -123,6 +123,7 @@ p {
     float: center;
     padding: 0;
     width: 90%;
+    height: auto;
 }
 
 .video2 {
@@ -130,6 +131,7 @@ p {
     float: center;
     padding: 0;
     width: 90%;
+    height: auto;
 }
 
 
