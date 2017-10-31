@@ -21,7 +21,7 @@ body {
 h1 {
 	display: inline;
 	font: Sans-Serif;
-    letter-spacing: 2vw;
+    letter-spacing: 2.4vw;
 	color: palevioletred;
     font-size: 10vw; 
     text-shadow: 9px -9px 0pt rgba(0, 0, 255, 0.6);
@@ -173,7 +173,7 @@ p {
 .main-text {
     text-align: center;
     color: palevioletred;
-    font-size: 3.5vw; 
+    font-size: 3vw; 
     text-shadow: 5px -3px 0pt rgba(0, 0, 255, 0.5);
    
     letter-spacing: 0.5vw;
