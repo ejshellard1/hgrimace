@@ -21,10 +21,10 @@ body {
 h1 {
 	display: inline;
 	font: Sans-Serif;
-    letter-spacing: 16px;
+    letter-spacing: 2.4vw;
 	color: palevioletred;
-    font-size: 111px; 
-    text-shadow: 9px -9px 0pt rgba(0, 0, 255, 0.5);
+    font-size: 10vw; 
+    text-shadow: 9px -9px 0pt rgba(0, 0, 255, 0.6);
 }
 
 .title {
@@ -63,10 +63,17 @@ h2 {
 .main-text2 {
     
     font-family: serif;
+
     font-style: italic;
     font-size: 17px;
     color: palevioletred;
     text-align: justify;
+
+    font-size: 1.6vw;
+    color: palevioletred;
+    text-align: justify;
+    letter-spacing: inherit;
+
     border-style: double; 
     border-width: 10px;
     border-color: palevioletred;
@@ -118,19 +125,31 @@ p {
 
 
 
+
+
 .video {
     margin: auto;
     float: center;
-    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 90%;
+    position: relative;
 }
 
 .video2 {
     margin: auto;
     float: center;
+
     padding: 15px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
     width: 90%;
+    position: relative;
 }
+
+
 
 
 
@@ -165,14 +184,22 @@ p {
 .main-text {
     text-align: center;
     color: palevioletred;
-    font-size: 44px; 
+    font-size: 3vw; 
     text-shadow: 5px -3px 0pt rgba(0, 0, 255, 0.5);
    
-    letter-spacing: 3px;
+    letter-spacing: 0.5vw;
     
     border-style: double; 
     border-width: 10px;
     border-color: palevioletred;
+
+=======
+    
+    padding: 0px;
+    
+    margin-top: 11px;
+    margin-bottom: 11px;
+
 
     padding: 0px;
     
