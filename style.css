@@ -63,10 +63,17 @@ h2 {
 .main-text2 {
     
     font-family: serif;
+
+    font-style: italic;
+    font-size: 17px;
+    color: palevioletred;
+    text-align: justify;
+
     font-size: 1.6vw;
     color: palevioletred;
     text-align: justify;
     letter-spacing: inherit;
+
     border-style: double; 
     border-width: 10px;
     border-color: palevioletred;
@@ -132,8 +139,12 @@ p {
 .video2 {
     margin: auto;
     float: center;
+
+    padding: 15px;
+
     padding-top: 10px;
     padding-bottom: 10px;
+
     width: 90%;
     position: relative;
 }
@@ -181,12 +192,17 @@ p {
     border-style: double; 
     border-width: 10px;
     border-color: palevioletred;
+
+=======
     
     padding: 0px;
     
     margin-top: 11px;
     margin-bottom: 11px;
 
+
+    padding: 0px;
+    
 }
 
 a:link, a:visited {
