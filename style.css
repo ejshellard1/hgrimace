@@ -63,10 +63,10 @@ h2 {
 .main-text2 {
     
     font-family: serif;
+    font-style: italic;
     font-size: 17px;
     color: palevioletred;
     text-align: justify;
-    
     border-style: double; 
     border-width: 10px;
     border-color: palevioletred;
@@ -128,7 +128,7 @@ p {
 .video2 {
     margin: auto;
     float: center;
-    padding: 0;
+    padding: 15px;
     width: 90%;
 }
 
@@ -173,9 +173,9 @@ p {
     border-style: double; 
     border-width: 10px;
     border-color: palevioletred;
-    
-    padding: 0px;
 
+    padding: 0px;
+    
 }
 
 a:link, a:visited {
